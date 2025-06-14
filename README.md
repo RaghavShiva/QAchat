@@ -22,3 +22,22 @@ This is a simple Streamlit-based web application that integrates with **Google's
    ```bash
    git clone https://github.com/your-username/gemini-qa-app.git
    cd gemini-qa-app
+2. **Create a virtual environment (optional but recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Set up environment variables**
+Create a .env file in the root directory and add your Gemini API key:
+    ```bash
+    GEMINI_API_KEY=your_google_generative_ai_key
+
+5. **Run the app**
+
+   ```bash
+   streamlit run app.py
+   
